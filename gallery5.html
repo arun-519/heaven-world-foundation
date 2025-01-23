@@ -28,14 +28,33 @@ p
   padding: 20px; 
   font-size: 30px;
 }
-footer {
-             position:relative;
-            bottom: 0px;
-            width: 100%;
-            padding: 0px;
-            text-align: center;
-            background-color:rgb(11, 28, 125);
-        }
+/* Base Footer Styling */
+.footer {
+  background-color: #ffff00; /* Yellow background */
+  color: #000; /* Black text color */
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #000; /* Thin black border */
+  font-family: Arial, sans-serif;
+}
+
+.footer a {
+  color: #000; /* Link color */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile-Responsive Adjustments */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px; /* Smaller text for mobile */
+    padding: 15px; /* Reduced padding */
+  }
+}
+
         </style>
         <body>
             <center>
@@ -59,12 +78,15 @@ footer {
                 </div>
             </div>
             </center>
-            <footer>
-  <hr>
-    <p style="text-align: center;">SRM TRP Engineering College<br>
-        NH 45, Tirchy – Chennai Highway,<br> Irungalur, Mannachanallur Taluk,<br> Tiruchirappalli District, Tamil Nadu 621105<br>
-        Toll Free : 1800 202 2535<br>
-        Contact No:0431-2258681/
-        0431-2258947<br>
-        Email Id: helpdesk@trp.srmtrichy.edu.in</p>
+           <footer class="footer">
+  <div class="footer-container">
+    <p>SRM TRP Engineering College</p>
+    <p>NH 45, Trichy – Chennai Highway, Irungalur,<br>
+       Mannachanallur Taluk, Tiruchirappalli District,<br>
+       Tamil Nadu 621105</p>
+    <p>Toll Free: 1800 202 2535</p>
+    <p>Contact No: 0431-2258681 / 0431-2258497</p>
+    <p>Email ID: <a href="mailto:helpdesk@trp.srmtrichy.edu.in">helpdesk@trp.srmtrichy.edu.in</a></p>
+  </div>
 </footer>
+
