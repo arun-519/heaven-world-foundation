@@ -38,6 +38,7 @@ a
             font-size: 30px;
         }
 }
+header{
 .glow-button{
 display: inline-block; padding: 15px 30px; 
 font-size: 18px; font-weight: bold; 
@@ -49,4 +50,5 @@ border-radius: 5px;
 box-shadow:0 10px rgba(0, 255, 136, 0.5), в в 20px rgba(0, 255, 136, 8.3), 0 0 30px rgba(0, 255, 136, 0.2); 
 transition: all 0.4s ease; 
 position: relative; overflow: hidden; 
+}
 }
