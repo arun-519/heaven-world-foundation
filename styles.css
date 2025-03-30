@@ -15,7 +15,7 @@ body, html {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: linear-gradient(to right, #04619F  , #000000);;
+    background-image: linear-gradient(to right, #04619F  , #000000);;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
