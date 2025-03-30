@@ -15,7 +15,7 @@ body, html {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: #04619F;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
