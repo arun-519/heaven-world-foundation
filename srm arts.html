@@ -3,74 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-     <style>
+    <title>SRM Trichy Arts And Science College</title>
+    <link rel="icon" href="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" type="image/png">
+    <style>
         body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-image: url('https://i.postimg.cc/cHz7fPwJ/canva-blue-minimalist-desktop-wallpaper-y-YVVHb-ZKVi4-1.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: linear-gradient(to right, #082f65, #7c0624);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
+
+        header {
+            background-color: rgb(16, 130, 150);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 10px 20px;
+            display: block;
+            align-items: center;
+        }
+
+        .logo {
+            width: 150px;
+            height: 120px;
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        .college-logo {
+            max-width: 600px;
+            height: auto;
+        }
+
+        .header-buttons {
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5be12f;
+            color: white;
+            cursor: pointer;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #9c1d2e;
+        }
+
         .flex-container {
-  display: flex;
-}
-.flex-container > div {
-  margin: 10px;
-  padding: 20px; 
-}
-        a
-        {
-          float: none;
-          text-decoration: none;
-          font-size: 20px;
-          color:white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
         }
-        p
-        {
-color:white;
-font-size:larger;
-font-family:Georgia, 'Times New Roman', Times, serif;
+        .flex-container > div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            text-align: left;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .flex-container h2 {
+            color: rgb(64, 59, 67);
+            margin-bottom: 10px;
+        }
+
+        .flex-container p {
+            font-size: larger;
+            color: rgb(64, 59, 67);
+            margin: 0 0 15px;
+            line-height: 1.6;
         }
     </style>
+     <script>
+        document.addEventListener('contextmenu', (e) => e.preventDefault());
+    </script>
 </head>
 <body>
-     <header>
-         <img src="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" alt="Logo" width="150" height="120">
-         <center>
-            <img src="https://asc.srmtrichy.edu.in/wp-content/uploads/2019/01/arts-science-logo1.jpg" alt="SRM TRICHY ARTS AND SCIENCE COLLEGE" width="600" height="180">
-            </center> 
-            <center>
-            <button onclick="window.location.href='gallery4.html';" >gallery</button>&emsp;&nbsp;&emsp;&emsp;
-            <button onclick="window.location.href='https://surveyheart.com/form/6791364f31d66c0bdc133ece';" >application form</button>
-            </center>
-        </header> 
-    <div class="flex-container">
-        <div>
-                <h2 >SRM Institutions</h2>
-                <p>SRM Group of Educational Institutions for Higher Learning functions under the aegis of the 4-decade old “Valliammai Society”. The Society was founded for promoting the cause of Quality Education, by Dr T. R. Paarivendhar, an Academician and Educationist. The SRM Group runs a network of more than 27 Institutions and is one of the largest educational groups in the country.</p>
-        </div>
-    </div>
-        <div class="flex-container">
-            <div>
-                <h2>SRM Group</h2>
-                <p>The branches of study include Engineering and Technology, Management, Medical/ Dental/ Life and Bio-Sciences/ Para Medical and Allied Medical Sciences; Hospitality and Arts & Science. Contributions made by The SRM Group has been consistent over the years through 'Educational Institutions' and 'Health Care Services', are well recognized throughout the country.</p>
+    <header>
+        <img class="logo" src="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" alt="Logo">
+        <div class="header-content">
+            <img src="https://asc.srmtrichy.edu.in/wp-content/uploads/2019/01/arts-science-logo1.jpg" alt="SRM TRICHY ARTS AND SCIENCE COLLEGE"  class="college-logo"width="350px">
+            <div class="header-buttons">
+                <button onclick="window.location.href='gallery4.html';">Gallery</button>
+                <button onclick="window.location.href='https://surveyheart.com/form/6791364f31d66c0bdc133ece';">Application Form</button>
             </div>
         </div>
-            <div class="flex-container">
-                <div>
-                <h2 > Who are we</h2>
+    </header>
+
+    <div class="flex-container">
+        <div>
+         <h2 >SRM Institutions</h2>
+         <p>SRM Group of Educational Institutions for Higher Learning functions under the aegis of the 4-decade old “Valliammai Society”. The Society was founded for promoting the cause of Quality Education, by Dr T. R. Paarivendhar, an Academician and Educationist. The SRM Group runs a network of more than 27 Institutions and is one of the largest educational groups in the country.</p>
+    </div>
+    </div>
+    <div class="flex-container">
+        <div>
+         <h2>SRM Group</h2>
+         <p>The branches of study include Engineering and Technology, Management, Medical/ Dental/ Life and Bio-Sciences/ Para Medical and Allied Medical Sciences; Hospitality and Arts & Science. Contributions made by The SRM Group has been consistent over the years through 'Educational Institutions' and 'Health Care Services', are well recognized throughout the country.</p>
+        </div>
+    </div>
+    </div>
+    <div class="flex-container">
+        <div>
+         <h2 > Who are we</h2>
                 <p>SRM Trichy Arts and Science College, affiliated to Bharathidasan University, Tiruchirappalli was started in the academic year 2018-2019. The college is in continuous pursuit of educational excellence by providing a holistic learning environment for students with state of the art infrastructure & facilities.<br>
-<br><br>
+                    <br><br>
                     Well qualified, skilled and committed faculty team<br><br>
                     Student-centric Plan of Action<br><br>
                     The best infrastructure and facilities<br><br>
                     Unique pedagogy<br><br>
                     Hands-on exposure at various phases of learning</p>
             </div>
-            </div>
-            </body>
+    </div>
+    </div>
+</body>
 </html>
