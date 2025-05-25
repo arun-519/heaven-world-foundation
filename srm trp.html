@@ -3,66 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-     <style>
+    <title>SRM TPR Engineering College(TIRUCHIRAPPALLI)</title>
+    <link rel="icon" href="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" type="image/png">
+    <style>
         body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-image: url('https://i.postimg.cc/cHz7fPwJ/canva-blue-minimalist-desktop-wallpaper-y-YVVHb-ZKVi4-1.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: linear-gradient(to right,#b90606, #0e1f7a );
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
+
+        header {
+            background-color: rgb(82, 149, 170);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 10px 20px;
+            display: block;
+            align-items: center;
+        }
+
+        .logo {
+            width: 150px;
+            height: 120px;
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        .college-logo {
+            max-width: 600px;
+            height: auto;
+        }
+
+        .header-buttons {
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #023602;
+            color: white;
+            cursor: pointer;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #e6e94f;
+        }
+
         .flex-container {
-  display: flex;
-}
-.flex-container > div {
-  margin: 10px;
-  padding: 20px; 
-}
-        a
-        {
-          float: none;
-          text-decoration: none;
-          font-size: 20px;
-          color:white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
         }
-        p
-        {
-color:white;
-font-size:larger;
-font-family:Georgia, 'Times New Roman', Times, serif;
+        .flex-container > div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            text-align: left;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .flex-container h2 {
+            color: rgb(64, 59, 67);
+            margin-bottom: 10px;
+        }
+
+        .flex-container p {
+            font-size: larger;
+            color: rgb(64, 59, 67);
+            margin: 0 0 15px;
+            line-height: 1.6;
         }
     </style>
+     <script>
+        document.addEventListener('contextmenu', (e) => e.preventDefault());
+    </script>
 </head>
 <body>
-     <header>
-         <img src="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" alt="Logo" width="150" height="120">
-         <center>
-            <img src="https://www.facultyplus.com/wp-content/uploads/2020/12/SRM-TRP-Trichy.png" alt="SRM TRP ENGINEERING COLLEGE (TIRUCHIRAPPALLI)" width="600" height="180">
-            </center> 
-            <center>
-            <button onclick="window.location.href='gallery5.html';" >gallery</button>&emsp;&nbsp;&emsp;&emsp;
-            <button onclick="window.location.href='https://surveyheart.com/form/679136cb4538e40bba8f8e21';" >application form</button>
-            </center>
-        </header> 
-    <div class="flex-container">
-        <div>
-                <h2 >About College</h2>
-                <p>SRM TRP Engineering College is headed by Dr. R. Shivakumar M.D., Ph.D. Chairman, Ramapuram and Trichy Campuses. The institution continues the blazing glory in the ﬁeld of education, deservedly bequeathing it from SRM Group of Institutions. It is approved by All India Council for Technical Education (AICTE), New Delhi and aﬃliated to Anna University, Chennai. Six U.G. programs, two PG programs and three PhD programs are being oﬀered. The institution provides all basic and advanced amenities to the students and the faculty members as well. Utmost importance is given for quality education through modern teaching methodologies. Well-equipped laboratories, highly qualiﬁed and experienced faculty members are the assets of the institution. The institution grows at a faster pace with conducive learning environment nurtured with state of art resources. The overall development for career enhancement is provided by the Training and Placement cell meticulously.</p>
-        </div>
-    </div>
-        <div class="flex-container">
-            <div>
-                <h2>Vision</h2>
-                <p>To carve the youth as dynamic competent, valued and knowledgeable Technocrats through research, innovation and entrepreneurial development for accomplishing the global expectations.</p>
+    <header>
+        <img class="logo" src="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" alt="Logo">
+        <div class="header-content">
+            <img src="https://www.facultyplus.com/wp-content/uploads/2020/12/SRM-TRP-Trichy.png" alt="SRM TRP ENGINEERING COLLEGE (TIRUCHIRAPPALLI)"  class="college-logo"width="350px">
+            <div class="header-buttons">
+                <button onclick="window.location.href='gallery5.html';">Gallery</button>
+                <button onclick="window.location.href='https://surveyheart.com/form/679136cb4538e40bba8f8e21';">Application Form</button>
             </div>
         </div>
-                    <div class="flex-container">
+    </header>
+
+    <div class="flex-container">
         <div>
-                    <h2>Mission</h2>
+        <h2 >About College</h2>
+        <p>SRM TRP Engineering College is headed by Dr. R. Shivakumar M.D., Ph.D. Chairman, Ramapuram and Trichy Campuses. The institution continues the blazing glory in the ﬁeld of education, deservedly bequeathing it from SRM Group of Institutions. It is approved by All India Council for Technical Education (AICTE), New Delhi and aﬃliated to Anna University, Chennai. Six U.G. programs, two PG programs and three PhD programs are being oﬀered. The institution provides all basic and advanced amenities to the students and the faculty members as well. Utmost importance is given for quality education through modern teaching methodologies. Well-equipped laboratories, highly qualiﬁed and experienced faculty members are the assets of the institution. The institution grows at a faster pace with conducive learning environment nurtured with state of art resources. The overall development for career enhancement is provided by the Training and Placement cell meticulously.</p>
+    </div>
+    </div>
+    <div class="flex-container">
+        <div>
+       <h2>Vision</h2>
+       <p>To carve the youth as dynamic competent, valued and knowledgeable Technocrats through research, innovation and entrepreneurial development for accomplishing the global expectations.</p>
+        </div>
+    </div>
+    </div>
+    <div class="flex-container">
+        <div>
+         <h2>Mission</h2>
                     <p><strong>M1:</strong>To inculcate the academic excellence in engineering education to create talented
                         professionals.</p><br>
                     <p><strong>M2:</strong>To promote research in basic sciences and applied engineering among faculty and
@@ -72,7 +127,8 @@ font-family:Georgia, 'Times New Roman', Times, serif;
                         the process of nation building.</p><br>
                     <p><strong>M5:</strong>To nurture and retain conducive lifelong learning environment towards professional
                         excellence.</p>
-                    </div>
-                    </div>
-            </body>
+            </div>
+    </div>
+    </div>
+</body>
 </html>
