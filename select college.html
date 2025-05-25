@@ -12,6 +12,7 @@
             padding: 0;
             background-color: #1e212b;
             color: #fff;
+            overflow-x: hidden;
         }
 
         header {
@@ -43,7 +44,7 @@
 
         .projects {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
         }
 
@@ -53,6 +54,8 @@
             box-shadow: 0 4px 8px rgba(157, 138, 138, 0.5);
             overflow: hidden;
             transition: transform 0.3s, box-shadow 0.3s;
+            justify-content: center;    
+            align-items: center;   
             text-align: center;
         }
 
@@ -62,11 +65,9 @@
         }
 
         .project-card img {
-            display: block;
-            width: auto; 
-            height: auto; 
-            max-width: 100%; 
-            margin: 0 auto; 
+            width: 100%; 
+            height: 200px; 
+            object-fit: cover;
         }
 
         .project-card .content {
@@ -75,6 +76,10 @@
 
         .project-card h3 {
             margin: 0 0 0.5rem;
+        }
+        .content img{
+            display: inline-block;
+            height:auto;
         }
     </style>
 </head>
