@@ -3,70 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-     <style>
+    <title>Hindusthan College</title>
+    <style>
         body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-image: url('https://i.postimg.cc/cHz7fPwJ/canva-blue-minimalist-desktop-wallpaper-y-YVVHb-ZKVi4-1.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: linear-gradient(to right, #fffd71, #e1852f);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 150px;
+            height: 120px;
+        }
+
+        .header-content {
+            flex: 1;
+            text-align: center;
+        }
+
+        .college-logo {
+            max-width: 600px;
+            height: auto;
+        }
+
+        .header-buttons {
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e1852f;
+            color: white;
+            cursor: pointer;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #d17328;
+        }
+
         .flex-container {
-  display: flex;
-}
-.flex-container > div {
-  margin: 10px;
-  padding: 20px; 
-}
-        a
-        {
-          float: none;
-          text-decoration: none;
-          font-size: 20px;
-          color:white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
         }
-        p
-        {
-            color:white;
-font-size:larger;
-font-family:Georgia, 'Times New Roman', Times, serif;
+        .flex-container > div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            text-align: left;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .flex-container h2 {
+            color: rgb(64, 59, 67);
+            margin-bottom: 10px;
+        }
+
+        .flex-container p {
+            font-size: larger;
+            color: rgb(64, 59, 67);
+            margin: 0 0 15px;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-     <header>
-         <img src="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" alt="Logo" width="150" height="120">
-         <center>
-            <img src ="https://i.postimg.cc/65kr9QDm/Hicas-logo.jpg" alt="HINDUSTHAN COLLEGE OF ARTS AND SCIENCE" width ="600" height="180">
-            </center> 
-            <center>
-            <button onclick="window.location.href='gallery2.html';" >gallery</button>&emsp;&nbsp;&emsp;&emsp;
-           <button onclick="window.location.href='https://surveyheart.com/form/679138409ee8230c0bddd08f';" >application form</button>
-            </center>
-        </header>
+    <header>
+        <img class="logo" src="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" alt="Logo">
+        <div class="header-content">
+            <img src="https://i.postimg.cc/65kr9QDm/Hicas-logo.jpg" alt="HINDUSTHAN COLLEGE OF ARTS AND SCIENCE" class="college-logo">
+            <div class="header-buttons">
+                <button onclick="window.location.href='gallery2.html';">Gallery</button>
+                <button onclick="window.location.href='https://surveyheart.com/form/679138409ee8230c0bddd08f';">Application Form</button>
+            </div>
+        </div>
+    </header>
+
     <div class="flex-container">
         <div>
-                <h2 >Our Profile</h2>
-                <p>Hindusthan College of Arts & Science ( HICAS ) was started by Hindusthan Educational & Charitable Trust in 1998 with the primary objective of providing quality education for all students irrespective of caste and creed. Embraced by serene nature, world-class infrastructure and excellent learning environment, Hindusthan College of Arts & Science ( HICAS ) stands as an outstanding institution becoming known for academic excellence with the following Vision and Mission.</p>
-        </div>
+        <h2>Our Profile</h2>
+        <p>Hindusthan College of Arts & Science (HICAS) was started by Hindusthan Educational & Charitable Trust in 1998 with the primary objective of providing quality education for all students irrespective of caste and creed. Embraced by serene nature, world-class infrastructure, and an excellent learning environment, HICAS stands as an outstanding institution known for academic excellence with the following Vision and Mission.</p>
     </div>
-        <div class="flex-container">
-            <div>
-                <h2>Vision</h2>
-                <p>To provide world class education to the students to face global challenges and to inculcate the latest trends in technological advancement.</p>
-                <p>To cater the needs of the environmental and ethical values in the mind of students to become good citizens and entrepreneurs.</p>
-            </div>
-        </div>
-            <div class="flex-container">
-                <div>
-                <h2 >Mission</h2>
-                <p>The mission of the college is to pursue a philosophy of perceptual acquisition of knowledge.</p>
-   <p>The important policy is to provide value based education and to bring out the hidden potential in students that equip them to approach life with optimism.</p>
-            </div>
-            </div>
-            </body>
+    </div>
+    <div class="flex-container">
+        <div>
+        <h2>Vision</h2>
+        <p>To provide world-class education to students to face global challenges and to inculcate the latest trends in technological advancement.</p>
+        <p>To cater to the needs of environmental and ethical values in the minds of students to become good citizens and entrepreneurs.</p>
+    </div>
+    </div>
+    <div class="flex-container">
+        <div>
+        <h2>Mission</h2>
+        <p>The mission of the college is to pursue a philosophy of perpetual acquisition of knowledge.</p>
+        <p>The important policy is to provide value-based education and to bring out the hidden potential in students, equipping them to approach life with optimism.</p>
+    </div>
+    </div>
+</body>
 </html>
