@@ -18,8 +18,11 @@
 }
 body, html {
     margin: 0;
-    padding:0;
+    padding: 0;
     background-image: linear-gradient(to right, #04619F  , #009FC2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a
