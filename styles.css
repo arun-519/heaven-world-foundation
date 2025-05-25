@@ -1,17 +1,20 @@
-.glow-button{
-display: inline-block; padding: 15px 30px; 
-font-size: 18px; font-weight: bold; 
-color: white; text-transform: uppercase; 
-text-decoration: none; 
-background-color: transparent; 
-border: 2px solid #eeff88; 
-border-radius: 5px; 
-box-shadow:0 10px rgba(0, 255, 136, 0.5), в в 20px rgba(0, 255, 136, 8.3), 0 0 30px rgba(0, 255, 136, 0.2); 
-transition: all 0.4s ease; 
-position: relative; overflow: hidden; 
-    backdrop-filter: blur(30px); 
-box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37); 
-border: 2px solid rgba(255, 255, 255, 0.18),
+.glow-button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #87CEFA, #1E90FF);
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 0px 4px 15px rgb(71, 35, 35);
+    transition: 0.3s ease-in-out;
+}
+
+.glow-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px #4682B4;
 }
 body, html {
     height: 100%;
@@ -52,4 +55,3 @@ a
             text-align: center;
             font-size: 30px;
         }
-}
