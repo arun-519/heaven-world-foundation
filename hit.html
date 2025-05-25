@@ -3,54 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-     <style>
+    <title>Hindusthan Institute Of Technology </title>
+    <link rel="icon" href="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" type="image/png">
+    <style>
         body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-image: url('https://i.postimg.cc/cHz7fPwJ/canva-blue-minimalist-desktop-wallpaper-y-YVVHb-ZKVi4-1.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: linear-gradient(to right, #fffd71, #e1852f);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 10px 20px;
+            display: block;
+            align-items: center;
+        }
+
+        .logo {
+            width: 150px;
+            height: 120px;
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        .college-logo {
+            max-width: 600px;
+            height: auto;
+        }
+
+        .header-buttons {
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e1852f;
+            color: white;
+            cursor: pointer;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #d17328;
+        }
+
         .flex-container {
-  display: flex;
-}
-.flex-container > div {
-  margin: 10px;
-  padding: 20px; 
-}
-        a
-        {
-          float: none;
-          text-decoration: none;
-          font-size: 20px;
-          color:white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
         }
-        p
-        {
-            color:white;
-font-size:larger;
-font-family:Georgia, 'Times New Roman', Times, serif;
+        .flex-container > div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            text-align: left;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .flex-container h2 {
+            color: rgb(64, 59, 67);
+            margin-bottom: 10px;
+        }
+
+        .flex-container p {
+            font-size: larger;
+            color: rgb(64, 59, 67);
+            margin: 0 0 15px;
+            line-height: 1.6;
         }
     </style>
+     <script>
+        document.addEventListener('contextmenu', (e) => e.preventDefault());
+    </script>
 </head>
 <body>
-     <header>
-         <img src="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" alt="Logo" width="150" height="120">
-         <center>
-            <img src ="https://www.knowafest.com/files/uploads/hit%20images-2020012320.png" alt="HINDUSTHAN INSTITUTE OF TECHNOLOGY" width ="600" height="180">
-            </center> 
-            <center>
-            <button onclick="window.location.href='gallery1.html';" >gallery</button>&emsp;&nbsp;&emsp;&emsp;
-            <button onclick="window.location.href='https://surveyheart.com/form/67913764eeb50b0c1f40220e';" >application form</button>
-            </center>
-        </header>
+    <header>
+        <img class="logo" src="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" alt="Logo">
+        <div class="header-content">
+            <img src ="https://www.knowafest.com/files/uploads/hit%20images-2020012320.png" alt="HINDUSTHAN INSTITUTE OF TECHNOLOGY" class="college-logo"width="460px">
+            <div class="header-buttons">
+                <button onclick="window.location.href='gallery1.html';">Gallery</button>
+                <button onclick="window.location.href='https://surveyheart.com/form/67913764eeb50b0c1f40220e';">Application Form</button>
+            </div>
+        </div>
+    </header>
+
     <div class="flex-container">
         <div>
-                <h2 >Our History</h2>
+         <h2 >Our History</h2>
                 <p>Hindusthan Institute of Technology (HITECH) was started in the year of 2007 by the great industrialist and philanthropist, Thiru.T.S.R.Khannaiyann.<br>
 
                     It is an Autonomous Institution. The primary objective of the Hindusthan Institute of Technology is to educate and prepare men and women for leadership in industry, government, and educational institutions; to advance the knowledge base of the engineering professions; and to influence the future directions of engineering education and practice.<br>
@@ -64,21 +118,22 @@ font-family:Georgia, 'Times New Roman', Times, serif;
                     The facilities for playing tennis, basketball and cricket are available on the College Campus. The Gymnasium, the Junior Common Room and the Ladies Common Room provide facilities for gymnastics, badminton, table tennis and other indoor games.<br>
                     
                     The educational programs in the college emphasize the understanding of fundamental principles and prepare an individual for a lifetime of learning and professional growth.</p>
-        </div>
     </div>
-        <div class="flex-container">
-            <div>
-                <h2>Our Vision</h2>
+    </div>
+    <div class="flex-container">
+        <div>
+        <h2>Our Vision</h2>
                 <p><strong>"INITIATE, INNOVATE, INCULCATE”</strong></p>
                 <p>HIT pursues a philosophy of perpetual acquisition of Knowledge. Apart from academic curriculum, equally important is our policy to provide value based education and to exhibit the hidden potentials in students that equip them to approach life with optimism.</p>
-            </div>
-        </div>
-            <div class="flex-container">
-                <div>
-                <h2 >Our Mission</h2>
+    </div>
+    </div>
+    <div class="flex-container">
+        <div>
+         <h2 >Our Mission</h2>
                 <p>Hitech conveys revolutionary technical education and inculcates great outlines of discipline through our dedicated staff, who shall set global standards, making our students technologically superior and ethically strong with the help of state-of–art laboratories in all disciplines.</p>
-   <p>HITECH focuses in both education and discipline to achieve greater recognition for our efforts. The college will build on its traditions of innovation, problem solving and interdisciplinary collaboration to meet the changing needs of society.</p>
+                <p>HITECH focuses in both education and discipline to achieve greater recognition for our efforts. The college will build on its traditions of innovation, problem solving and interdisciplinary collaboration to meet the changing needs of society.</p>
             </div>
-            </div>
-            </body>
+    </div>
+    </div>
+</body>
 </html>
