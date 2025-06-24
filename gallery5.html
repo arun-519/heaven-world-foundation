@@ -3,83 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-     <style>
-        body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-image: url('https://wallpaperaccess.com/full/2137007.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    <title>College List</title>
+    <link rel="icon" href="https://i.postimg.cc/tJ31Qr24/logo-removebg-preview-1.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to right,#b90606, #0e1f7a );
+            overflow-x: hidden;
         }
-        .flex-container {
-  display: flex;
-}
-p
-{
-    color: white;
-}
 
-.flex-container > div {
-  margin: 10px;
-  padding: 20px; 
-  font-size: 30px;
-}
-/* Base Footer Styling */
-.footer {
-  background-color:blue; 
-  color: #000; /* Black text color */
-  padding: 20px;
-  text-align: center;
-  border-top: 1px solid #000; /* Thin black border */
-  font-family: Arial, sans-serif;
-}
+        header {
+             background-image: linear-gradient(to right, #04619F  , #009FC2);
+            padding: 0rem 0;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-size: 3rem;
+            font-weight: bold;
+        }
 
-.footer a {
-  color: #000; /* Link color */
-  text-decoration: none;
-}
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
 
-.footer a:hover {
-  text-decoration: underline;
-}
+        .section {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
 
-/* Mobile-Responsive Adjustments */
-@media (max-width: 768px) {
-  .footer {
-    font-size: 14px; /* Smaller text for mobile */
-    padding: 15px; /* Reduced padding */
-  }
-}
+        .section h2 {
+            font-size: 2.5rem;
+            color: #01090d;
+            margin-bottom: 1rem;
+        }
 
-        </style>
-        <body>
-            <center>
-                <img src="https://www.facultyplus.com/wp-content/uploads/2020/12/SRM-TRP-Trichy.png" alt="SRM TRP ENGINEERING COLLEGE (TIRUCHIRAPPALLI)" width="600" height="180"> 
-            <div class="flex-container">
-                <div>
-                    <img src="https://i.postimg.cc/L5FcNgBG/Green-Campus3.webp" width="700" height="200">
-            <img src="https://i.postimg.cc/8PpZmbgL/SRM-TRP-Engineering-College-BTech-admissions-2024-featured-imag-v-Qrtj-Qy.avif" width="700" height="200">
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: #dbbc8d;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(157, 138, 138, 0.5);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            justify-content: center;    
+            align-items: center;   
+            text-align: center;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(123, 117, 117, 0.508);
+        }
+
+        .project-card img {
+            width: 100%; 
+            height: 300px; 
+            object-fit: cover;
+        }
+
+        .project-card .content {
+            padding: 1rem;
+        }
+
+        .project-card h3 {
+            margin: 0 0 0.5rem;
+        }
+        .content img{
+            display: inline-block;
+            height:auto;
+        }
+        footer {
+            background-color: rgba(255, 255, 0, 0.207);
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.6;
+            color: black;
+        }
+    </style>
+     <script>
+        document.addEventListener('contextmenu', (e) => e.preventDefault());
+    </script>
+</head>
+<body>
+    <header>
+        <img src="https://www.facultyplus.com/wp-content/uploads/2020/12/SRM-TRP-Trichy.png" alt="SRM TRP ENGINEERING COLLEGE (TIRUCHIRAPPALLI)" width="350" height="180">
+    </header>
+    <div class="container">
+        <section id="projects" class="section">
+            <h2>Gallery of our SRM TRP</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <div class="content">
+                       <img src="https://i.postimg.cc/L5FcNgBG/Green-Campus3.webp" width="700" height="200">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="content">
+                     <img src="https://i.postimg.cc/8PpZmbgL/SRM-TRP-Engineering-College-BTech-admissions-2024-featured-imag-v-Qrtj-Qy.avif" width="700" height="200">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="content">
+                         <img src="https://i.postimg.cc/0NHNVvQ7/web-banner-12-scaled-1856x900.webp" width="700" height="200">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="content">
+                      <img src="https://i.postimg.cc/wjMML3x9/Library-of-SRM-TRP-Engineering-College-Tiruchirappalli-Library-1.jpg"width="700" height="200">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="content">
+                      <img src="https://i.postimg.cc/x16sppSK/Canteen-of-SRM-TRP-Engineering-College-Tiruchirappalli-Cafeteria-1.jpg" width="700" height="200">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="content">
+                        <br>
+                          <img src="https://i.postimg.cc/nhX7Z3DK/Auditorium-of-SRM-TRP-Engineering-College-Tiruchirappalli-Auditorium-1.jpg" width="700" height="200">
+                    </div>
+                </div>
                 </div>
             </div>
-            <div class="flex-container">
-                <div>
-            <img src="https://i.postimg.cc/0NHNVvQ7/web-banner-12-scaled-1856x900.webp" width="700" height="200">
-            <img src="https://i.postimg.cc/wjMML3x9/Library-of-SRM-TRP-Engineering-College-Tiruchirappalli-Library-1.jpg"width="700" height="200">
-                </div>
-            </div>
-            <div class="flex-container">
-                <div>
-            <img src="https://i.postimg.cc/x16sppSK/Canteen-of-SRM-TRP-Engineering-College-Tiruchirappalli-Cafeteria-1.jpg" width="700" height="200">
-            <img src="https://i.postimg.cc/nhX7Z3DK/Auditorium-of-SRM-TRP-Engineering-College-Tiruchirappalli-Auditorium-1.jpg" width="700" height="200">
-                </div>
-            </div>
-            </center>
-           <footer class="footer">
-  <div class="footer-container">
+        </section>
+    </div>
+    <footer>
     <p>SRM TRP Engineering College</p>
     <p>NH 45, Trichy – Chennai Highway, Irungalur,<br>
        Mannachanallur Taluk, Tiruchirappalli District,<br>
@@ -87,6 +148,6 @@ p
     <p>Toll Free: 1800 202 2535</p>
     <p>Contact No: 0431-2258681 / 0431-2258497</p>
     <p>Email ID: <a href="mailto:helpdesk@trp.srmtrichy.edu.in">helpdesk@trp.srmtrichy.edu.in</a></p>
-  </div>
 </footer>
-
+</body>
+</html>
